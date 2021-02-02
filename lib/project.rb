@@ -9,8 +9,8 @@ class Project
 
   end
 
-  def back_project
-
+  def add_backer(backer)
+    @backers << backer
   end
 
 end
